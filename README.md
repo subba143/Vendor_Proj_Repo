@@ -57,7 +57,7 @@ INSTALLED_APPS = [
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework.authentication.TokenAuthentication',),
-    'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
+   # 'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10,
 }
@@ -85,7 +85,7 @@ USAGES:
 -------
 
 Access the Django admin interface to manage vendor records and purchase orders: http://localhost:8000/admin/, http://127.0.0.1:8000/admin/
-Use the provided REST API endpoints to interact with the system programmatically: http://localhost:8000/api/ ,http://127.0.0.1:8000/api.
+Use the provided REST API endpoints to interact with the system programmatically: http://127.0.0.1:8000/api, http://127.0.0.1:8000/api/vendors/, http://127.0.0.1:8000/api/purchase_orders/, http://127.0.0.1:8000/api/vendors/13/performance/, http://127.0.0.1:8000/api/historical_performances/.
 
 
 CONTRIBUTING :
