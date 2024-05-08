@@ -84,8 +84,8 @@ Start the development server: python manage.py runserver
 USAGES:
 -------
 
-Access the Django admin interface to manage vendor records and purchase orders: http://localhost:8000/admin/, http://127.0.0.1:8000/admin/
-Use the provided REST API endpoints to interact with the system programmatically: http://127.0.0.1:8000/api, http://127.0.0.1:8000/api/vendors/, http://127.0.0.1:8000/api/purchase_orders/, http://127.0.0.1:8000/api/vendors/13/performance/, http://127.0.0.1:8000/api/historical_performances/.
+Access the Django admin interface to manage vendor records and purchase orders: http://localhost:8000/admin/ (or) http://127.0.0.1:8000/admin/,
+Use the provided REST API endpoints to interact with the system programmatically: http://127.0.0.1:8000/api/, http://127.0.0.1:8000/api/vendors/, http://127.0.0.1:8000/api/vendors/13/, http://127.0.0.1:8000/api/purchase_orders/, http://127.0.0.1:8000/api/purchase_orders/2/, http://127.0.0.1:8000/api/vendors/13/performance/, http://127.0.0.1:8000/api/historical_performances/, http://127.0.0.1:8000/api/historical_performances/20/.
 
 
 CONTRIBUTING :
